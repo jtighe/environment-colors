@@ -14,8 +14,8 @@ You will need to install the patched powerline font as well: https://github.com/
 below is per Wes's git repo mentioned above
 ## Step-by-step installation
 
-Drop the cobalt2.zsh-theme file in to the ~/.oh-my-zsh/themes/ directory.
-Open up your ZSH preferences at ~/.zshrc and change the theme variable to ZSH_THEME="cobalt2".
-Install 'Inconsolata for Powerline'. (Refer to the powerline-fonts repo for help on font installation.)
-Replace the ~/.minttyrc file with the .minttyrc file in this repo.
-Restart your terminal.
+1. Drop the cobalt2.zsh-theme file in to the ~/.oh-my-zsh/themes/ directory.
+1. Open up your ZSH preferences at ~/.zshrc and change the theme variable to ZSH_THEME="cobalt2".
+1. Install 'Inconsolata for Powerline'. (Refer to the powerline-fonts repo for help on font installation.)
+1. Replace the ~/.minttyrc file with the .minttyrc file in this repo.
+1. Restart your terminal.
