@@ -1,7 +1,7 @@
 # Environment Colors
 Color Scheme for my shell, terminal etc.
 * * *
-This is based on Wes Bos's [Cobalt2-item Git Hub Repo](https://github.com/wesbos/Cobalt2-iterm) and his excellant [Command Line Power User Video Series](http://http://commandlinepoweruser.com/)
+This is based on Wes Bos's [Cobalt2-item Git Hub Repo](https://github.com/wesbos/Cobalt2-iterm) and his excellant [Command Line Power User Video Series](http://commandlinepoweruser.com/)
 
 cobalt2.zsh-theme is the prompt layout for zsh users.
 
