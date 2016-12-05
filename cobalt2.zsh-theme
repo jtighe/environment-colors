@@ -71,7 +71,7 @@ prompt_context() {
   local user=`whoami`
 
   if [[ "$user" != "$DEFAULT_USER" || -n "$SSH_CLIENT" ]]; then
-    prompt_segment black default "%(!.%{%F{yellow}%}.)✝"
+    prompt_segment black default "%(!.%{%F{yellow}%}.)$user ✝"
   fi
 }
 
@@ -93,8 +93,9 @@ prompt_git() {
 
 # Dir: current working directory
 prompt_dir() {
-  prompt_segment blue black '%~'
+  #prompt_segment blue black '%~'
   # echo $(pwd | sed -e "s,^$HOME,~," | sed "s@\(.\)[^/]*/@\1/@g")
+  prompt_segment blue black '%3d'
 }
 
 # Status:
